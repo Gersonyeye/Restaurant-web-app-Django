@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} About {% endblock title %}
+
+
+{% block content %}
+
+    <h1 style="color: #495E57"> About us </h1>
+
+    <p> {{ about }} </p>
+
+    <img src="{% static 'img/dessert.jpg' %}" >
+    
+{% endblock content %}
